@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//테스트
 public class ResultPage1 extends AppCompatActivity implements View.OnClickListener{
     ImageView imageView;
     Button restartButton;
