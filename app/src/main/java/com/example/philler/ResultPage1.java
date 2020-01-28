@@ -22,7 +22,7 @@ public class ResultPage1 extends AppCompatActivity implements View.OnClickListen
         mainButton.setOnClickListener(this);
         restartButton = findViewById(R.id.restartButton);
         restartButton.setOnClickListener(this);
-    }
+    } 
 
     @Override
     public void onClick(View v){
