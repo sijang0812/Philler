@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Philler</string>
+    <string name="main_back_end">Press again to exit</string>
+    <string name="main_mail_error">스캔할 내용을 입력하세요</string>
+    <string name="read_message">Do you add for {1} grade?</string>
+
+    <string name="img_message">Image</string>
+    <string name="warning_message">주의사항</string>
+    <string name="main_text">Main</string>
+    <string name="start_text">Start</string>
+    <string name="restart_text">Restart</string>
+    <string name="input_text">검사할 내용을 입력하세요</string>
+    <string name="double_click_text">더블클릭 하세요</string>
+</resources>

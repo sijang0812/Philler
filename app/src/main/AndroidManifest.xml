@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.philler">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <dist:module dist:instant="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".HelpPage"/>
+        <activity android:name=".MailFiltering"/>
+        <activity android:name=".DaumMail"/>
+        <activity android:name=".NaverMail"/>
+        <activity android:name=".GoogleMail"/>
+        <activity android:name=".ResultPage1"/>
+        <activity android:name=".ResultPage2"/>
+        <activity android:name=".ResultPage3"/>
+        <activity android:name=".ResultPage4"/>
+        <activity android:name=".ResultPage5"/>
+        <activity android:name=".ResultPage6"/>
+        <activity android:name=".ResultPage7"/>
+        <activity android:name=".ResultPage8"/>
+        <activity android:name=".ResultPage9"/>
+        <activity android:name=".ResultPage10"/>
+        <activity android:name=".ResultPage11"/>
+        <activity android:name=".ResultPage12"/>
+    </application>
+</manifest>

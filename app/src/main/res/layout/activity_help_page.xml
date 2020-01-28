@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:contentDescription="@string/img_message"
+        android:id="@+id/ImageView"
+        android:layout_width="337dp"
+        android:layout_height="497dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/help"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="15dp"/>
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ImageView"
+        android:layout_below="@+id/ImageView"
+        android:text="@string/main_text"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="512dp"
+        android:onClick="onClick" />
+</RelativeLayout>

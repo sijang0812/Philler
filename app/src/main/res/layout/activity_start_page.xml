@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">>
+
+            <TableRow>
+                <ImageButton
+                    android:contentDescription="@string/img_message"
+                    android:id="@+id/naverButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/naver"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <ImageButton
+                    android:contentDescription="@string/img_message"
+                    android:id="@+id/daumButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/daum" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:contentDescription="@string/img_message"
+                    android:id="@+id/googleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/google"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <ImageButton
+                    android:contentDescription="@string/img_message"
+                    android:id="@+id/etcButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/start" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout"
+        android:text="@string/warning_message"
+        android:onClick="onClick"/>
+
+</RelativeLayout>
