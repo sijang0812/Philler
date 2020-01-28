@@ -16,7 +16,7 @@ public class ResultPage1 extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_page1);
- 
+
         imageView = findViewById(R.id.imageView);
         mainButton = findViewById(R.id.mainButton);
         mainButton.setOnClickListener(this);
